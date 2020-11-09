@@ -1,10 +1,74 @@
+/* Making universal style that apply the entire page */
 body {
-  color: white;
+color: azure;
+margin: 0;
+width: 100%;
+background-color: #555555;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
 }
-/* header dark theme */
+/* All the link styles on this Web */
+a:link , a:visited{
+text-decoration: none;
+color: blue;
+}
+a:hover {
+font-size: 150%;
+text-decoration: none;
+}
+/* Header */
 header {
-  margin: 0;
-  width: 100%;
-  height: 40px;
-  background-color: #463f3a;
+height:  100px;
+background-color: black;
+margin-top: -15px;
+}
+header > ul > li > a {
+text-decoration: none;
+color: white;
+}
+/* Header title to left side */
+.header-title {
+float: left;
+margin-left: 10px;
+}
+/* Header nav to right side */
+.header-nav > li {
+float: right;
+display: inline-block;
+margin: 40px 40px 0 0;
+}
+/* Footer section */
+footer {
+height: 170px;
+margin: 0;
+background-color:  black;
+}
+/* Social media links to right side */
+footer > ul {
+float: right;
+display: block;
+margin-right: 70px;
+margin-top: 20px;
+}
+footer > ul > li {
+margin: 17px;
+}
+footer > ul > li > a : hover {
+color: red;
+text-decoration: underline red;
+}
+/* The content section */
+.content {
+width:  auto;
+margin: 10px;
+border: solid 1px black;
+border-radius: 10px;
+background-color: #262626;
+padding: 0 30px 0 30px;
+}
+.contentlist > ul > li > a {
+padding: 20px;
+}
+.content > p , .content > div > p{
+text-align: justify;
 }
