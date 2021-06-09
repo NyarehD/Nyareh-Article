@@ -3,4 +3,6 @@ body{
 }
 header{
   color: blueviolet;
+margin: 20px;
+padding: 20px;
 }
